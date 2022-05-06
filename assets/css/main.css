@@ -819,7 +819,7 @@ body{
 	opacity:.35;
 	z-index:10
 }
-@media (max-width: 1180px){
+(max-width: 1180px){
 	.l-side-nav{
 		display:none
 }
@@ -1540,7 +1540,7 @@ body{
 .about--banner h2{
 	position:relative;
 	margin-top:0;
-	font-size:63px;
+	font-size:53px;
 	font-weight:900;
 	line-height:1;
 	z-index:1
