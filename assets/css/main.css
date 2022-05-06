@@ -819,7 +819,7 @@ body{
 	opacity:.35;
 	z-index:10
 }
-(max-width: 1180px){
+@media (max-width: 1180px){
 	.l-side-nav{
 		display:none
 }
@@ -1398,7 +1398,7 @@ body{
 	position: relative;
 	margin: 0;
 	overflow:hidden
-}
+} 
 
 
 
@@ -1520,7 +1520,7 @@ body{
 	display:flex;
 	width:900px;
 	max-width:75%;
-	height:100%;
+	height:80%;
 	-webkit-box-orient:vertical;
 	-webkit-box-direction:normal;
 	-webkit-flex-direction:column;
@@ -1767,7 +1767,7 @@ body{
 }
 @media (max-width: 767px){
 	.outer-nav>li{
-		font-size:44px
+		font-size:37px
 }
 }
 @media (max-width: 600px){
