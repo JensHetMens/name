@@ -1395,9 +1395,13 @@ body{
  
 	width: 150px;
 	height: 300px;
+	position: relative;
 	margin: 0;
 	overflow:hidden
 }
+
+
+
 .work--lockup .slider--item-image img{
 	width:100%
 }
@@ -1469,6 +1473,9 @@ body{
 	left:0
 }
 @media (max-width: 900px){
+	.slider--item-image {
+		left: 21vw;
+	}
 	.work--lockup .slider--item-image{
 		width:120px;
 		height:120px
@@ -1532,15 +1539,15 @@ body{
 
 .about--banner h2{
 	position:relative;
-	margin-top:35px;
-	font-size:68px;
+	margin-top:0;
+	font-size:63px;
 	font-weight:900;
 	line-height:1;
 	z-index:1
 }
 
 .about--banner a{
-	padding:5px 17px 5px 0;
+	padding:0px 17px 5px 0;
 	text-decoration:none;
 	color:#fff;
 	font-weight:700;
