@@ -1638,6 +1638,12 @@ body{
 	justify-content:center;
 	margin:0 auto
 }
+
+@media (max-width: 1180px){
+	.about{
+		max-width:100%
+}
+	
 .about--banner{
 	position:relative;
 	height:475px
@@ -1645,8 +1651,8 @@ body{
 
 .about--banner h2{
 	position:relative;
-	margin-top:0;
-	font-size:53px;
+	margin-top:35px;
+	font-size:68px;
 	font-weight:900;
 	line-height:1;
 	z-index:1
@@ -1663,8 +1669,60 @@ body{
 .about--banner a:hover svg{
 	left:10px
 }
-
-
+@media (max-width: 767px){
+	.about--banner{
+		height:305px
+}
+	.about--banner::before{
+		top:0;
+		left:125px
+}
+	.about--banner::after{
+		top:35px;
+		left:260px
+}
+	.about--banner h2{
+		margin-top:10px;
+		font-size:44px
+}
+	.about--banner h2::before{
+		top:28px;
+		left:168px
+}
+	.about--banner h2::after{
+		top:163px;
+		left:163px
+}
+	.about--banner img{
+		width:315px
+}
+}
+@media (max-width: 600px){
+	.about--banner{
+		height:auto
+}
+	.about--banner::before{
+		left:155px
+}
+	.about--banner::after{
+		left:310px
+}
+	.about--banner h2{
+		margin-top:0;
+		font-size:55px
+}
+	.about--banner h2::before{
+		top:43px;
+		left:214px
+}
+	.about--banner h2::after{
+		top:205px;
+		left:205px
+}
+	.about--banner img{
+		display:none
+}
+}
 .contact{
 	position:fixed;
 	top:0;
