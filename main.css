@@ -1682,7 +1682,7 @@ body{
 	right:-12px
 }
 
-@media (max-width: 767px){
+@media (max-width: 2560px){
 	.about--banner{
 		height:305px
 }
