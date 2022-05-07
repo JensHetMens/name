@@ -260,9 +260,9 @@ body{
   animation: fadeout 5.6s 1 forwards;
 }
 
-.perspective {
+#completecontainer {
   opacity: 0;
-  animation: fadein 2.8s 1 ease-in forwards;
+  animation: fadein 2.8s 1 ease-in forwards 5.3s;
 }
 
 h1 {
