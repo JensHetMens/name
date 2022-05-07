@@ -246,7 +246,7 @@ body{
 }
 
 .loader {
-  animation: fadein 2.8s 1 ease-in forwards;
+  animation: fadein 2.8s 1 ease-in forwards 5.4s;
 }
 .contain {
   background-color: black;
