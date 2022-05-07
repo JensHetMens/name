@@ -1626,7 +1626,7 @@ body{
 	display:flex;
 	width:900px;
 	max-width:75%;
-	height:80%;
+	height:100%;
 	-webkit-box-orient:vertical;
 	-webkit-box-direction:normal;
 	-webkit-flex-direction:column;
@@ -1638,12 +1638,11 @@ body{
 	justify-content:center;
 	margin:0 auto
 }
-
 @media (max-width: 1180px){
 	.about{
 		max-width:100%
 }
-	
+}
 .about--banner{
 	position:relative;
 	height:475px
@@ -1659,7 +1658,7 @@ body{
 }
 
 .about--banner a{
-	padding:0px 17px 5px 0;
+	padding:5px 17px 5px 0;
 	text-decoration:none;
 	color:#fff;
 	font-weight:700;
@@ -1669,6 +1668,20 @@ body{
 .about--banner a:hover svg{
 	left:10px
 }
+.about--banner a svg{
+	position:relative;
+	left:5px;
+	width:15px;
+	fill:#fff;
+	-webkit-transition:left .2s ease-in-out;
+	transition:left .2s ease-in-out
+}
+.about--banner img{
+	position:absolute;
+	bottom:-90px;
+	right:-12px
+}
+
 @media (max-width: 767px){
 	.about--banner{
 		height:305px
