@@ -1,58 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <title>Jens van der Sloot</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!--Import the css-->
-  <link rel="stylesheet" href="./css/main.css">
-
-  <!--Import all the js-->
-  <script type="text/javascript" src="./js/jquery.js"></script>
-  <script type="text/javascript" src="./js/hammer.js"></script>
-  <script type="text/javascript" src="./js/functions.js"></script>
-
-  <!--Set icon and title-->
-   <title>Jens van der Sloot</title>
-  <link rel="icon" href="./img/logosquarewhite.png?">
-
+  <link rel="stylesheet" href="assets/css/main.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="assets/js/vendor/jquery.js"><\/script>')</script>
+<script src="assets/js/functions-min.js"></script>
+  <link rel="icon" href="./assets/img/logosquarewhite.png?">
 </head>
-
 <body>
-<!--Everything for the preloader-->
-  <div class="loader">
-    <div class="contain">
-      <div class="loader-square" style="--i:1"></div>
-      <div class="loader-square" style="--i:2"></div>
-      <div class="loader-square" style="--i:3"></div>
-      <div class="loader-square" style="--i:4"></div>
-      <div class="loader-square" style="--i:5"></div>
-      <div class="loader-square" style="--i:6"></div>
-      <div class="loader-square" style="--i:7"></div>
-      <div class="loader-square" style="--i:8"></div>
-      <div class="loader-square" style="--i:9"></div>
-      <div class="loader-square" style="--i:10"></div>
-      <div class="loader-square" style="--i:11"></div>
-      <div class="loader-square" style="--i:12"></div>
-      <div class="loader-square" style="--i:13"></div>
-      <div class="loader-square" style="--i:14"></div>
-      <div class="loader-square" style="--i:15"></div>
-    </div>
-  </div>
 
-<!--Device notification incase aspect ratio is not supported-->
 <div class="device-notification">
   <a class="device-notification--logo" onclick="window.location.href='';">
-    <img src="./img/logo.png" style="width: 50px; filter: invert(100%)">
+    <img src="assets/img/logo.png" style="width: 50px; filter: invert(100%)">
     <p>Jens van der Sloot</p>
   </a>
   <p class="device-notification--message">This website is not supported on your current aspect ratio, please switch to another device or change it.</p>
 </div>
 
-
-<!-- Div that contains all webcontent-->
-<div class="perspective effect-rotate-left" style= "animation-delay: 5.3s">
+<div class="perspective effect-rotate-left">
   <div class="container"><div class="outer-nav--return"></div>
   <div class="starscontainer">
     <div id="stars"></div>
@@ -65,7 +34,7 @@
       <div class="l-wrapper">
         <header class="header">
           <a class="header--logo" onclick="window.location.href='';">
-            <img src="./img/logo.png" style="width: 50px; filter: invert(100%)">
+            <img src="assets/img/logo.png" style="width: 50px; filter: invert(100%)">
             <p>Jens van der Sloot</p>
           </a>
 
@@ -75,6 +44,7 @@
         </header>
         <nav class="l-side-nav">
           <ul class="side-nav">
+            
             <li class="is-active"><span>Home</span></li>
             <li><span>About Me</span></li>
             <li><span>My Work</span></li>
@@ -88,7 +58,7 @@
               <div class="intro--banner">
                 <h1>I<br>Create<br>Websites.</h1>
                
-                <img style="width: 500px" src="./img/astronaut.png">
+                <img style="width: 500px" src="assets/img/astronaut.png">
               </div>
               <div class="intro--options">
                 <a>
@@ -102,10 +72,11 @@
             <div class="about">
               <div class="about--banner">
                 <h2>About Me</h2>
-                <a> Hey! I'm Jens van der Sloot, a 16 year old that has a passion for websites.
+                <a href="#0"> Hey! I'm Jens van der Sloot, a 16 year old that has a passion for websites.
                  
                 </a>
                 <p class="paragraph">When I started programming, I was not quite sure what to focus on, so I started with the basics: Python, JS, and C++. Although I really enjoyed working with these languages, I felt like something was missing. When I started web design about a year and a half ago, that feeling disappeared in an instant. Here I was able to express all my creativity not only in design, but in so many other ways as well! Over the past few years I have gained a lot of experience in HTML, CSS and JS, but I am still very eager to learn new things!</p>
+               
               </div>
              
             </div>
@@ -113,31 +84,31 @@
           <li class="l-section section">
             <div class="work">
               <h2>My Work</h2>
-              <h5>Here I will post pictures of the projects that I work on. To see the full interactive versions of these pages please contact me.</h5>
+              <h5>Here I will post pictures of the projects that I work on. To see the full interactive versions of these pages please contact me. </h5>
               <div class="work--lockup">
                 <ul class="slider">
                   <li class="slider--item slider--item-right">
-                    <a>
+                    <a href="#0">
                       <div class="slider--item-image">
-                        <img src="./img/example3.png">
+                        <img src="./assets/img/example3.png">
                       </div>
                       <p class="slider--item-title">Old Portfolio</p>
                       <p class="slider--item-description">My old portfolio is made within on of my favourite colour themes; black and white.</p>
                     </a>
                   </li>
                   <li class="slider--item slider--item-left">
-                    <a>
+                    <a href="#0">
                       <div class="slider--item-image">
-                        <img src="./img/example2.png">
+                        <img src="./assets/img/example2.png">
                       </div>
                       <p class="slider--item-title">A Fitness Company</p>
-                      <p class="slider--item-description">A simple but stylish webshop made with a purpose of having the elderly be able to participate in society for as long as possible.</p>
+                      <p class="slider--item-description">A simple but stylish webshop made with a purpose of having the elderly be able to participate in society for as long as possible. </p>
                     </a>
                   </li>
                   <li class="slider--item slider--item-center">
-                    <a>
+                    <a href="#0">
                       <div class="slider--item-image">
-                        <img src="./img/example1.png">
+                        <img src="./assets/img/example1.png">
                       </div>
                       <p class="slider--item-title">EKB_12</p>
                       <p class="slider--item-description">EKB_12 is a example webpage revolving around the concepts of elegancy and simplicity.</p>
@@ -197,5 +168,6 @@
     <li>Contact</li>
   </ul>
 </div>
+
 </body>
 </html>
