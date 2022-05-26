@@ -191,6 +191,8 @@ body{
 	-webkit-tap-highlight-color:#FFF498
 }
 
+/* The CSS for the loader is under a comment as it's not being used
+
 @keyframes spin-around {
   0% {
     transform: translate(-50%, -50%) rotate(calc(var(--i) * 0deg)) scale(1);
@@ -249,12 +251,12 @@ body{
   display: grid;
   place-items: center;
   animation: fadeout 5.6s 1 forwards;
-}
+} */
 
 #completecontainer {
   opacity: 0;
-  animation: fadein 2.8s 1 ease-in forwards 5.3s;
-}
+  animation: fadein 1.5s 1 ease-in forwards 1.5s;
+} 
 
 h1 {
   position: absolute;
