@@ -251,12 +251,12 @@ body{
   display: grid;
   place-items: center;
   animation: fadeout 5.6s 1 forwards;
-} */
+} 
 
 #completecontainer {
   opacity: 0;
   animation: fadein 1.5s 1 ease-in forwards 1.5s;
-} 
+} */
 
 h1 {
   position: absolute;
